@@ -220,7 +220,7 @@ int main()
 	int n = myGraph.getVertexCount();
 	int trials = (int)(n*(n-1)/2)*log(n);
 	// do this once at the start of main:
-	for(int i = 0 ; i<500; i++)
+	for(int i = 0 ; i<trials; i++)
 	{
 		srand( (unsigned)time(0));
 		//cout<< "Starting graph";
